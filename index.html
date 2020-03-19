@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cookies.team</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="granim.min.js"></script>
+</head>
+<body id="top">
+    <div id="wrapper">
+        <canvas id="gradient"></canvas>
+        <div class="main">
+            <header class="okl">
+                <h1>
+                    <a href="index.html">
+                        <img src="МОЙ ЛУЧШИЙ ЛОГОТИП.png"></a>
+                    <a href="teamz.html">
+                        <img src="okk.png"></a>
+                    <a href="siege.html">
+                        <img src="siege.png.png"></a>
+                </h1>
+            </header>
+            <section>
+                Привет, это сайт <i class="fig">cookies.team</i>. Здесь будет публиковаться информация о <i class="fig">наших проектах, нас и продвежние проектов к завершению.</i>
+            </section>
+            <aside>
+                <h2>Хочешь вступить к нам ?</h2>
+                <a href="https://vk.com/cookies.team">
+                    <code class="border-solid">Напиши нам в группу !</code>
+                </a>
+            </aside>
+            <section>
+                <h3>Другие ссылки</h3>
+                <article>
+                    <a href="https://vk.com/cookies.team" target="_blank">Наша группа в Вк</a>
+                    <a href="https://www.youtube.com/channel/UCDFZnanzKJVyzkITJwFh3vw" target="_blank">Наш Youtube</a>
+                    <a href="mailto:krasanimation52@gmail.com.com?subject=Reaching%20Out&body=У%20меня%20проблема%20:" target="_blank">Написать  нам</a>
+                </article>
+            </section>
+            <footer>
+                <a href="#top" class="jojo">Вернуться наверх</a>
+            </footer>
+        </div>
+    </div>
+    <script>
+        var granimInstance = new Granim({
+        element: '#gradient',
+        direction: 'top-bottom',
+        isPausedWhenNotInView: true,
+        states : {
+            "default-state": {
+                gradients: [
+                    ['#ff9966', '#ff5e62'],
+                    ['#00F260', '#0575E6'],
+                    ['#e1eec3', '#f05053']
+                ]
+            }
+        }
+    });
+    </script>
+</body>
+</html>
